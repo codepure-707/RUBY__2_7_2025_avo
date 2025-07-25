@@ -109,11 +109,11 @@ group :development do
 
   # Development tools
   gem "htmlbeautifier"
-  gem "hotwire-livereload", "~> 1.3.0"
+  gem "hotwire-livereload", "~> 1.4.0"
   gem "actual_db_schema"
 
   # Performance profiling
-  gem "derailed_benchmarks", "~> 2.1", ">= 2.1.2"
+  gem "derailed_benchmarks", "~> 2.2", ">= 2.2.0"
   gem "ruby-statistics", "< 4"  # Keep version locked until derailed_benchmarks PR gets merged
 
   # Development console & debugging
@@ -135,7 +135,7 @@ end
 # =============================================================================
 group :test do
   # RSpec & testing framework
-  gem "rspec-rails", "~> 6.0", ">= 6.0.3"
+  gem "rspec-rails", "~> 7.0", ">= 7.0.0"
   gem "rspec-retry", "~> 0.6.2"
   gem "rails-controller-testing"
 
@@ -177,8 +177,8 @@ group :development, :test do
   gem "erb_lint", require: false
 
   # Language server & IDE support
-  gem "solargraph", require: false
-  gem "solargraph-rails", require: false
+  gem "solargraph", ">= 0.55.4", require: false
+  gem "solargraph-rails", ">= 1.2.0", require: false
 
   # AI & external services
   gem "ruby-openai"
