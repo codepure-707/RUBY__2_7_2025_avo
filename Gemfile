@@ -9,11 +9,11 @@ gemspec
 # =============================================================================
 # RAILS & CORE DEPENDENCIES
 # =============================================================================
-gem "rails", ">= 8.0.0"
+gem "rails", ">= 8.0.2.1"
 # gem "rails", github: "rails/rails", branch: "main"
 
 # ActiveStorage for file uploads
-gem "activestorage", ">= 8.0.0"
+gem "activestorage", ">= 8.0.2.1"
 
 # Asset pipeline
 gem "jsbundling-rails"
@@ -104,7 +104,7 @@ group :development do
   gem "gem-release", require: false
 
   # Documentation & annotations
-  gem "annotate"
+  gem "annotate", ">= 2.6.6"
   gem "ripper-tags", require: false
 
   # Development tools
@@ -157,7 +157,7 @@ group :test do
 
   # Performance testing
   gem "test-prof"
-  gem "database_cleaner-active_record"
+  gem "database_cleaner-active_record", ">= 2.2.2"
 end
 
 # =============================================================================
