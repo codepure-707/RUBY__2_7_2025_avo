@@ -169,7 +169,7 @@ group :development, :test do
 
   # Test data & factories
   gem "faker", require: false
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.5.1"
 
   # Code quality & linting
   gem "i18n-tasks", "~> 1.0.12"
