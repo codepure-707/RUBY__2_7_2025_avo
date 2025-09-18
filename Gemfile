@@ -97,7 +97,7 @@ group :development do
   gem "standard", require: false
   gem "rubocop", require: false
   gem "rubocop-shopify", require: false
-  gem "rubycritic", require: false
+  gem "rubycritic", ">= 4.10.0", require: false
 
   # Release helpers
   gem "bump", require: false
@@ -152,7 +152,7 @@ group :test do
 
   # Coverage reporting
   gem "simplecov", require: false
-  gem "simplecov-cobertura"
+  gem "simplecov-cobertura", ">= 3.0.0"
   gem "simplecov-lcov"
 
   # Performance testing
@@ -177,8 +177,8 @@ group :development, :test do
   gem "erb_lint", require: false
 
   # Language server & IDE support
-  gem "solargraph", require: false
-  gem "solargraph-rails", require: false
+  gem "solargraph", ">= 0.55.4", require: false
+  gem "solargraph-rails", ">= 1.2.0", require: false
 
   # AI & external services
   gem "ruby-openai"
