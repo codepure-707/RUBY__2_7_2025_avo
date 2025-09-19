@@ -1,4 +1,4 @@
-FROM ruby:3.1.0
+FROM ruby:3.4.6
 
 RUN apt-get update -qq && apt-get install -yqq build-essential apt-transport-https apt-utils
 
