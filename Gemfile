@@ -9,11 +9,11 @@ gemspec
 # =============================================================================
 # RAILS & CORE DEPENDENCIES
 # =============================================================================
-gem "rails", ">= 8.0.0"
+gem "rails", ">= 8.0.2.1"
 # gem "rails", github: "rails/rails", branch: "main"
 
 # ActiveStorage for file uploads
-gem "activestorage", ">= 8.0.0"
+gem "activestorage", ">= 8.0.2.1"
 
 # Asset pipeline
 gem "jsbundling-rails"
@@ -109,11 +109,11 @@ group :development do
 
   # Development tools
   gem "htmlbeautifier"
-  gem "hotwire-livereload", "~> 1.3.0"
+  gem "hotwire-livereload", "~> 1.4.0"
   gem "actual_db_schema"
 
   # Performance profiling
-  gem "derailed_benchmarks", "~> 2.1", ">= 2.1.2"
+  gem "derailed_benchmarks", "~> 2.2", ">= 2.2.0"
   gem "ruby-statistics", "< 4"  # Keep version locked until derailed_benchmarks PR gets merged
 
   # Development console & debugging
@@ -135,7 +135,7 @@ end
 # =============================================================================
 group :test do
   # RSpec & testing framework
-  gem "rspec-rails", "~> 6.0", ">= 6.0.3"
+  gem "rspec-rails", "~> 7.0", ">= 7.0.0"
   gem "rspec-retry", "~> 0.6.2"
   gem "rails-controller-testing"
 
@@ -169,7 +169,7 @@ group :development, :test do
 
   # Test data & factories
   gem "faker", require: false
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.5.1"
 
   # Code quality & linting
   gem "i18n-tasks", "~> 1.0.12"
