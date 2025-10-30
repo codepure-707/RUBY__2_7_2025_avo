@@ -46,7 +46,7 @@ gem "ransack", ">= 4.2.0"
 # UI & FRONTEND
 # =============================================================================
 gem "active_link_to"
-gem "meta-tags"
+gem "meta-tags", ">= 2.22.2"
 gem "friendly_id", "~> 5.5.1"
 
 # =============================================================================
@@ -145,7 +145,7 @@ group :test do
 
   # Test utilities
   gem "fuubar"
-  gem "webmock"
+  gem "webmock", ">= 3.25.2"
   gem "launchy", require: false
   gem "spring"
   gem "spring-commands-rspec"
