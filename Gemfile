@@ -172,7 +172,7 @@ group :development, :test do
   gem "factory_bot_rails"
 
   # Code quality & linting
-  gem "i18n-tasks", "~> 1.0.12"
+  gem "i18n-tasks", "~> 1.1.0"
   gem "erb-formatter", require: false
   gem "erb_lint", require: false
 
