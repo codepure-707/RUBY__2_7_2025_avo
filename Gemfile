@@ -120,7 +120,7 @@ group :development do
   gem "web-console", ">= 3.3.0"
   gem "listen", ">= 3.5.1"
   gem "debug", platforms: [:mri, :mingw, :x64_mingw]
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 3.2.0"
 
   # Uncomment for performance profiling
   # gem "rack-mini-profiler"
