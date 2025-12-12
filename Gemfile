@@ -47,7 +47,7 @@ gem "ransack", ">= 4.2.0"
 # =============================================================================
 gem "active_link_to"
 gem "meta-tags"
-gem "friendly_id", "~> 5.5.1"
+gem "friendly_id", "~> 5.6.0"
 
 # =============================================================================
 # DATA & ANALYTICS
@@ -72,7 +72,7 @@ gem "countries"
 gem "image_processing", "~> 1.12"
 gem "prefixed_ids"
 gem "hashid-rails", "~> 1.4", ">= 1.4.1"
-gem "money-rails", "~> 1.12"
+gem "money-rails", "~> 2.0", ">= 2.0.0"
 gem "pagy", "> 8"
 gem "csv"
 
