@@ -85,7 +85,7 @@ gem "net-smtp", require: false
 # =============================================================================
 # AVO EXTENSIONS
 # =============================================================================
-gem "avo-money_field"
+gem "avo-money_field", ">= 0.0.6"
 gem "avo-record_link_field"
 gem "pluggy", path: "./pluggy"
 
