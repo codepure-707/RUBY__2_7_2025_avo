@@ -35,7 +35,7 @@ gem "redis", "~> 5.0"
 # =============================================================================
 # AUTHENTICATION & AUTHORIZATION
 # =============================================================================
-gem "devise"
+gem "devise", ">= 5.0.0"
 
 # =============================================================================
 # SEARCH & FILTERING
@@ -110,7 +110,7 @@ group :development do
   # Development tools
   gem "htmlbeautifier"
   gem "hotwire-livereload", "~> 1.3.0"
-  gem "actual_db_schema"
+  gem "actual_db_schema", ">= 0.9.0"
 
   # Performance profiling
   gem "derailed_benchmarks", "~> 2.1", ">= 2.1.2"
