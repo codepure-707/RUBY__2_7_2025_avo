@@ -181,7 +181,7 @@ group :development, :test do
   gem "solargraph-rails", require: false
 
   # AI & external services
-  gem "ruby-openai"
+  gem "ruby-openai", ">= 8.2.0"
 
   # Build & dependency management
   gem "appraisal", require: false
